@@ -1,3 +1,5 @@
+import datetime
+
 import albumentations as A
 import cv2
 
@@ -39,3 +41,4 @@ transformed_image = transformed["image"]
 # Write output image
 cv2.imwrite("C:\\Users\\ubei.DESKTOP-95T650K\\Desktop\\006.jpg", transformed_image)
 print("image augment done")
+print(datetime.MAXYEAR)
